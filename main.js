@@ -294,10 +294,10 @@ async function createNewFile() {
     
     await renderFileTree();
     await openFile(handle, filePath);
-    showToast('文件已创建');
+    showToast('文件已创建💯');
   } catch (e) {
     console.error(e);
-    showToast('创建文件失败');
+    showToast('创建文件失败💔');
   }
 }
 
